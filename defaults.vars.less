@@ -11,12 +11,12 @@
 // Set the line height for better bodycopy readability.
 @classy-line-height:  1.4em;
 
-// Use unitless value of `line-height` as `line-height-ratio` because we set
-// it in em.
-@classy-line-height-ratio: unit(@line-height);
+// Use unitless value of `classy-line-height` as `classy-line-height-ratio`
+// because we set it in ems.
+@classy-line-height-ratio: unit(@classy-line-height);
 
 // Uses as the base unit to aligning elements.
-@classy-unit: @line-height;
+@classy-unit: @classy-line-height;
 
 // Fonts in use.
 @classy-serif-font-family:      Georgia, "Times New Roman", Times, serif;
